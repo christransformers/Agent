@@ -2,33 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Voice Assistant</title>
-<link rel="dns-prefetch" href="https://unpkg.com">
-<link rel="preconnect" href="https://unpkg.com" crossorigin>
-<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:system-ui,-apple-system,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;background:#000;color:#fff}h1{font-size:1.2rem;font-weight:400;margin-bottom:2rem;opacity:.8}</style>
+<title>Voice Agent</title>
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
 </head>
 <body>
-<h1>Voice Assistant Ready</h1>
 <elevenlabs-convai agent-id="agent_5601kafh0v41frevbh00awzg22bg"></elevenlabs-convai>
-<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
-</body>
-</html>elevenlabs-convai {
-  width:320px;
-  max-width:100%;
-}
-</style>
-</head>
-<body>
-<div class="container">
-  <h1>Voice Assistant Ready</h1>
-  <elevenlabs-convai agent-id="agent_5601kafh0v41frevbh00awzg22bg"></elevenlabs-convai>
-</div>
-
-<!-- THE FIX: must load as a module -->
-<script type="module">
-  import "https://unpkg.com/@elevenlabs/convai-widget-embed";
-</script>
-
 </body>
 </html>
